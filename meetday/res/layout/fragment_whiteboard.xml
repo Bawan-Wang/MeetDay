@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relayoutWhiteBoard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+   
+    <!--<ImageView android:layout_height="fill_parent" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/wbimgView" 
+        android:contentDescription="@string/desc"/> -->    
+    <FrameLayout
+        android:id="@+id/white_board_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >   
+           <ImageView android:layout_height="fill_parent" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/wbimgView" 
+        android:contentDescription="@string/desc"/>        
+   </FrameLayout>
+   
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/WB_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"/>
+     
+   
+    <LinearLayout
+        android:id="@+id/linLayoutWBBottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_wbcall_disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>
+        
+        <ImageButton
+            android:id="@+id/button_wb_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>        
+        
+        <ImageButton
+            android:id="@+id/button_wbstore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+  
+</RelativeLayout>

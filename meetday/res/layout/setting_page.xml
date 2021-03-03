@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lilayoutSetPage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/personal_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="30dip"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/desc"
+            android:scaleType="fitCenter" />
+<!-- android:background="@drawable/round" -->
+
+        <TextView
+            android:id="@+id/setting_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/personal_photo"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/personal_photo"
+            android:text="@string/login_nickname_hint"
+            android:textColor="@color/gray"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/contact_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:textColor="@color/gray"
+        android:divider="@color/white"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/setting_privacy_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy_title"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+            android:id="@+id/setting_ver_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="@string/sett_version_name"/>
+
+</LinearLayout>

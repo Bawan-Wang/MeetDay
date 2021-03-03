@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/asker_official_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/person" />
+
+    <TextView
+        android:id="@+id/asker_official_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/asker_official_image"
+        android:gravity="center_vertical"
+        android:text="@string/defaulttext"
+        android:textSize="30sp"
+        android:textColor="@color/gray" />
+
+</RelativeLayout>

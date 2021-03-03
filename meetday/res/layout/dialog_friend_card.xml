@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="220dp"
+    android:layout_height="match_parent">
+
+<!--    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewIcon"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+-->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageViewIcon"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+            <TableRow android:background="@color/white">
+                <TextView
+                    android:text="Friend's name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/textViewName"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/meetday"
+                    android:layout_marginBottom="2dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TableRow android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+
+            <RelativeLayout android:id="@+id/layout_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/imgMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_message_white_24dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:text="@string/friend_card_message"
+                    android:gravity="center"
+                    android:id="@+id/textViewChat"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_below="@+id/imgMessage"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout android:id="@+id/layout_collaborate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:id="@+id/imgCollaborate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_border_color_white_24dp" />
+
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:text="@string/friend_card_collaborate"
+                android:gravity="center"
+                android:id="@+id/textViewCall"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_below="@+id/imgCollaborate"
+                />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

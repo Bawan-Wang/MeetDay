@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "259348984193",
+    "firebase_url": "https://dulcet-listener-94312.firebaseio.com",
+    "project_id": "dulcet-listener-94312",
+    "storage_bucket": "dulcet-listener-94312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259348984193:android:222f429efdef9c36",
+        "android_client_info": {
+          "package_name": "com.project1.meetday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259348984193-k21gosvl0aosen81ehod4u9urnndc5d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project1.meetday",
+            "certificate_hash": "5568DEDD956F8225DDB9E9118C6E60A65759AE19"
+          }
+        },
+        {
+          "client_id": "259348984193-ni5c54iu0b11c27r44rrhs0gsgeilh61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project1.meetday",
+            "certificate_hash": "C0A51B793E6DF649B0D2C2D5C2DF749B9F7E22F1"
+          }
+        },
+        {
+          "client_id": "259348984193-e61pinp22d5cead1pjimf78tvbo2naif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project1.meetday",
+            "certificate_hash": "C1C22DA006721B822EB4E42148881B23D4570FDC"
+          }
+        },
+        {
+          "client_id": "259348984193-q0c76ssposib34j2ms49nm14sj5t2oip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project1.meetday",
+            "certificate_hash": "46928C11FE8571023513916E4C64BE64B0FFB2C4"
+          }
+        },
+        {
+          "client_id": "259348984193-h2iriot1kg5r30ea9m674s3thv58de6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project1.meetday",
+            "certificate_hash": "29F9E229B42A59BCC80015A74E6373ED1A948EE9"
+          }
+        },
+        {
+          "client_id": "259348984193-mjo6aeh9ii9r3fljnlrnt97eq9fnvgs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBswXi59CWBfdozos4qMI0BrI4y6r77Fkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259348984193-mjo6aeh9ii9r3fljnlrnt97eq9fnvgs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

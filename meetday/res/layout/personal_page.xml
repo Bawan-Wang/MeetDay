@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lilayoutPersonalPage"
+    android:background="#FFFFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+	<TextView
+        android:id="@+id/PersonalInfoTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/sett_personal_info"
+        android:background="#73c3a7"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="200dp"
+        android:textColor="@color/gray" 
+        android:background="@drawable/frame"
+        android:divider="@color/listview_line"
+        android:dividerHeight="1dp">
+    </ListView>
+
+</LinearLayout>

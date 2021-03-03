@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/history_photo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/person" />
+
+    <ImageButton
+        android:id="@+id/history_next_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/history_icon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/desc"
+        android:background="#00000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/history_icon"
+        android:layout_toRightOf="@+id/history_photo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/history_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/defaulttext"
+            android:textSize="20sp"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/defaulttext"
+            android:textSize="12sp"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+</RelativeLayout>

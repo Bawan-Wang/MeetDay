@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_frame"
+    android:orientation="vertical" >
+    <!-- tools:context=".LoginPage" -->
+
+    <ImageView
+        android:id="@+id/register_imagetitle"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dip"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/words_register" />
+
+	<LinearLayout
+        android:id="@+id/register_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:orientation="vertical" >
+        <!-- android:padding="15dip" -->
+        <!-- android:background="@drawable/layout_type" -->
+          
+        <EditText
+            android:id="@+id/register_useremail_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="@drawable/box_email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:gravity="center">
+        </EditText>
+        
+        
+         <!-- 
+        <EditText
+            android:id="@+id/register_id_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/login_id_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/register_nickname_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/login_nickname_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+		  -->
+        <!-- 密码  -->
+        <EditText
+            android:id="@+id/register_userpassword_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dip"
+            android:ems="10"
+            android:background="@drawable/box_password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="20sp"
+			android:gravity="center">
+        </EditText>
+        
+        <EditText
+            android:id="@+id/register_checkuserpassword_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dip"
+            android:ems="10"
+            android:background="@drawable/box_check"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="20sp"
+			android:gravity="center">
+        </EditText>
+<!--
+        <EditText
+            android:id="@+id/register_phone_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/login_phone_hint"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+        -->
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/register_gotomainpage_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:src="@drawable/btn_next" 
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/desc"/>
+    
+</LinearLayout>

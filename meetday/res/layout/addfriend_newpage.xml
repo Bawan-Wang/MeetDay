@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lilayoutAddFriendPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relayoutAddFriendTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#73c3a7" >
+        
+        <TextView
+	        android:id="@+id/AddFriendTextView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="60dp"
+	        android:gravity="center"
+	        android:text="@string/sett_add_friends"
+	        android:textColor="@color/white"
+	        android:textSize="30sp" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/relayoutListInfo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/frame">
+        
+         <TextView
+	        android:id="@+id/InviteTextView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:gravity="center"
+	        android:text="@string/sett_Invite_friends_to_join_MeetDay"
+	        android:textColor="@color/gray"
+	        android:textSize="20sp" />
+
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+         	android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:layout_below="@+id/InviteTextView" >
+
+            <ImageView
+	            android:id="@+id/InvitePhone_button"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:scaleType="fitCenter"/>
+            
+            <ImageView
+	            android:id="@+id/InviteFB_button"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:scaleType="fitCenter" />
+            
+            <ImageView
+	            android:id="@+id/InviteGoogle_button"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:scaleType="fitCenter"/>
+         </LinearLayout>
+	</RelativeLayout>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       	android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+         
+         <EditText
+            android:id="@+id/Invite_LineEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/frame"
+            android:layout_weight="2"
+            android:ems="5"
+            android:textSize="15sp"
+            android:hint="@string/add_friend_editext_hint"
+            android:gravity="left"
+			 android:paddingTop="5dp"
+			 android:paddingLeft="5dp" />
+         
+         <ImageView
+            android:id="@+id/InviteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/frame"
+            android:layout_weight="1"/>
+     </LinearLayout>
+     
+</LinearLayout>

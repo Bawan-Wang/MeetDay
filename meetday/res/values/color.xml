@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#888889</color>
+    <color name="blue">#0000ff</color>
+    <color name="background">#ffffff</color>
+    <color name="dark">#000000</color> 
+    <color name="listview_line">#73C3A7</color>
+    <color name="white">#ffffff</color>
+    
+    <drawable name="black">#000000</drawable>
+    <drawable name="gray">#7F808080</drawable>
+    <drawable name="lightsteelblue">#dfb0c4de</drawable>
+    <drawable name="lightgrey">#d3d3d3</drawable>
+    
+</resources>

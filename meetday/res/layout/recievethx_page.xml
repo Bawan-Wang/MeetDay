@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lilayoutRecieveThx"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relayoutRecieveThxTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73c3a7" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+			android:layout_centerInParent="true"
+			android:layout_marginLeft="30dp"
+            android:text="@string/hist_thankscard_title"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/thxcardinfo_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:contentDescription="@string/desc"
+            android:scaleType="centerInside"/>"
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/recithx_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/recithx_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dip"
+            android:text="@string/def_thanktext"
+            android:textColor="@color/dark"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

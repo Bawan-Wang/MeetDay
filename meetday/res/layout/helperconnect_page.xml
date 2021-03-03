@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lilayoutHelpConnect"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+    
+    <TextView
+	    android:id="@+id/helperProblemContent"
+	    android:layout_width="250dp"
+	    android:layout_height="100dp"
+	    android:layout_marginTop="30dp"
+        android:background="@drawable/background_frame"
+	    android:gravity="center"
+	    android:text="@string/connect_content"
+	    android:textColor="@color/dark"/>
+<!--     
+    <com.ant.liao.GifView
+       android:id="@+id/gifview01"
+       android:layout_width="250dp"
+       android:layout_height="50dp"
+       android:gravity="center"
+       android:scaleType="fitCenter"
+       android:layout_marginTop="15dp" />
+ -->
+   <ImageView
+       android:id="@+id/personal_photo"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_marginTop="80dp"
+       android:scaleType="fitCenter"
+       android:contentDescription="@string/desc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/helperShowNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/connect_names"
+            android:textColor="@color/gray"
+            android:textSize="30sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp" >
+
+            <ImageButton
+                android:id="@+id/helperDisconnectButton"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/desc"
+                android:background="@null"
+                android:scaleType="centerInside" />"
+
+            <ImageButton
+                android:id="@+id/helperCallButton"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/desc"
+                android:background="@null"
+                android:scaleType="centerInside"  />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

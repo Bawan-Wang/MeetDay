@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relayoutAskerPage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relayoutAskerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#73c3a7" >
+
+        <EditText
+            android:id="@+id/FriendSearchText"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dip"
+            android:layout_toLeftOf="@+id/Search_btn"
+            android:background="#FFFFFFFF"
+            android:hint="@string/Search_title"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/asker_Invite_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_alignTop="@+id/FriendSearchText"
+            android:layout_alignLeft="@+id/FriendSearchText"
+            android:layout_alignStart="@+id/FriendSearchText" />
+        
+        <ImageButton
+            android:id="@+id/Search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/desc"
+            android:scaleType="fitXY"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/AskerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/asker_friendtitle"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+<!--
+    <TextView
+        android:id="@+id/txtOfficalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/asker_officialsubtitle"
+        android:textColor="#73c3a7"
+        android:textSize="20sp"
+        android:paddingLeft="10sp"
+        android:gravity="center_vertical"
+        android:background="#D1E9E9"
+        android:layout_below="@+id/relayoutAskerTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/listOfficialAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtOfficalTitle">
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtFriendTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/asker_friendsubtitle"
+        android:textColor="#73c3a7"
+        android:textSize="20sp"
+        android:paddingLeft="10sp"
+        android:gravity="center_vertical"
+        android:background="#D1E9E9"
+        android:layout_below="@+id/listOfficialAccount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/ContactsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtFriendTitle"
+        android:divider="@color/listview_line"
+        android:dividerHeight="1dp" >
+    </ListView>
+-->
+    <ListView
+        android:id="@+id/ContactsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relayoutAskerTitle"
+        android:divider="@color/listview_line"
+        android:dividerHeight="1dp" >
+    </ListView>
+</RelativeLayout>

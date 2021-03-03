@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relayoutWelcomPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/view_pager_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_pager_content"
+            android:layout_marginTop="-25px"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </RelativeLayout>
+    
+	<LinearLayout
+	    android:id="@+id/loginbox_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="bottom"
+	    android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/skip_btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="left"
+            android:contentDescription="@string/desc"
+            android:scaleType="fitCenter"
+            android:background="@null"/>
+
+    </LinearLayout>
+</RelativeLayout>

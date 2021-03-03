@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/smsTitle_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#73c3a7" >
+
+        <EditText
+            android:id="@+id/smsSearchText"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dip"
+            android:layout_toLeftOf="@+id/smsSearch_btn"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/smsSearch_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dip"
+            android:contentDescription="@string/desc"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_searchfriend_in_white" />
+
+
+      <TextView
+            android:id="@+id/smsPadding"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>    
+        
+    <RelativeLayout
+        android:id="@+id/contactlist_RelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/contactlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:divider="@color/listview_line"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/smsSendBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#73c3a7"
+        android:text="Send Message"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />    
+    
+    </RelativeLayout>    
+</LinearLayout>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_frame"
+    android:orientation="vertical" >
+    <!-- tools:context=".LoginPage" -->
+
+    <ImageView
+        android:id="@+id/login_imagetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:src="@drawable/loginman" 
+        android:contentDescription="@string/desc" />
+
+    <LinearLayout
+        android:id="@+id/login_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:orientation="vertical">
+        <!-- android:padding="15dip"  -->
+        <!-- android:background="@drawable/layout_type" -->
+        <!--  
+        <EditText
+            android:id="@+id/userfirstname_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_firstname_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/userlastname_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_lastname_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+		-->
+        <!-- 账号  -->
+        <EditText
+            android:id="@+id/login_useremail_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="@drawable/box_email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textSize="20sp" 
+            android:gravity="center">
+        </EditText>
+
+        <!-- 密码  -->
+        <EditText
+            android:id="@+id/login_userpassword_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="@drawable/box_password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+        </EditText>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/login_gotomainpage_btn"
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:src="@drawable/btn_next" 
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/desc"/>
+
+    <TextView
+        android:id="@+id/forgot_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/forgot_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gray"
+        android:textSize="25sp" />
+    
+</LinearLayout>

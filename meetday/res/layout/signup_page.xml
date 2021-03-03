@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_frame">
+    
+    <ImageView
+        android:id="@+id/signup_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="50dip"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/signup_photo" />
+
+    <EditText
+        android:id="@+id/signup_nickname_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="50dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginBottom="50dip"
+		android:layout_below="@id/signup_photo"
+        android:paddingLeft="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textSize="15sp" 
+        android:gravity="center_vertical"
+        android:text="@string/login_nickname_hint"
+        android:background="@drawable/frame"/>
+    
+    <ImageButton
+        android:id="@+id/signup_gotomainpage_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+		android:layout_below="@id/signup_nickname_edit"
+        android:background="#00000000"
+        android:contentDescription="@string/desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btn_next" />
+
+</RelativeLayout>

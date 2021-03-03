@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeetDay</string>
+    <string name="menu_settings">設定</string>
+    <string name="desc"></string>
+    <string name="title_activity_register_page">RegisterPage</string>
+    <string name="title_activity_forgot_page">ForgotPage</string>
+    <string name="ok_label">好</string>
+    <string name="cancel_label">取消</string>
+    <string name="Invite_title">邀請朋友</string>
+    <string name="Search_title">搜尋好友</string>
+    <string name="default_thanks_string">To Helper: Thanks for your help...
+        (Press to write more...)</string>
+    <string name="login_phone_hint">電話號碼</string>
+    <string name="login_nickname_hint">姓名</string>
+    <string name="title_activity_personal_page">PersonalPage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="searhFriend">Enter Friend Name</string>
+    <!-- <string name="def_questiontext">我遇到了一個難題，能夠幫忙我嗎?</string> -->
+    <string name="def_questiontext">我想跟你討論一下.</string>    
+    <string name="thankletter">感謝函</string>
+    <string name="def_thanktext"> 嗨!\n非常享受這次的討論\n感謝您。</string>
+    <string name="title_activity_grid_item_img_page">GridItemImgPage</string>
+    <string name="settings_name">AppRTC Settings</string>
+    <string name="disconnect_call">Disconnect Call</string>
+    <string name="room_description">        Please enter a room name. Room names are shared with everyone, so think
+        of something unique and send it to a friend.
+connect_names
+</string>
+    <string name="invalid_url_title">Invalid URL</string>
+    <string name="invalid_url_text">The URL or room name you entered resulted in an invalid URL: %1$s
+</string>
+    <string name="channel_error_title">Connection error</string>
+    <string name="connecting_to">Connecting to: %1$s</string>
+    <string name="missing_url">FATAL ERROR: Missing URL to connect to.</string>
+    <string name="ok">OK</string>
+    <string name="switch_camera">Switch front/back camera</string>
+    <string name="toggle_debug">Toggle debug view</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect_description">Connect to the room</string>
+
+    <!--Login strings. -->
+    <string name="login_phone_btn">電話登入</string>
+    <string name="Register_text">第一次使用MeetDay? 註冊</string>
+    <string name="forgot_text">忘記密碼?</string>
+    <string name="signup_by_phone">註冊</string>
+    <string name="login_by_phone">登入</string>
+    <string name="login_method">登入方式</string>
+    <string name="login_firstname_hint">名字</string>
+    <string name="login_lastname_hint">姓</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_id_hint">ID</string>
+    <string name="login_phone_number">電話號碼</string>
+    <string name="login_pwd_hint">密碼</string>
+    <string name="login_checkpwd_hint">確認密碼</string>
+    <string name="login_set_phone_account">設定電話帳號</string>
+    <string name="login_country_name">國家</string>
+    <string name="login_done">完成</string>
+    <string name="login_connecting">連接資料庫</string>
+    <string name="login_wait">請等待...</string>
+    <string name="login_fail">登入失敗!!!</string>
+    <string name="login_offline">您尚未連線!</string>
+    <string name="login_user_connect">帳號連線中…</string>
+    <string name="login_no_data_found">歡迎使用MeetDay…</string>
+    <string name="login_no_invalid_number">電話號碼或密碼輸入錯誤</string>
+
+    <!-- Asker strings. -->
+    <string name="asker_friendtitle">好友群</string>
+    <string name="asker_officialsubtitle">官方帳號</string>
+    <string name="asker_friendsubtitle">好友</string>
+
+    <!-- Chat strings. -->
+    <string name="chat_send_btn">傳送</string>
+
+    <!-- Experts strings.-->
+    <string name="dialog_call">播打電話</string>
+    <string name="dialog_cancel">取消</string>    
+     
+    <!-- Communication strings. -->
+    <string name="comm_connect">連線中 \n 請等待....</string>
+    <string name="comm_connected_success">你現在可以說話與繪圖囉!</string>
+    <string name="comm_connected_error">連結錯誤!</string>
+    <string name="comm_miss_connection">連線中斷!</string>
+    <string name="comm_hangup_from_remote">對方已掛斷通話.</string>
+    <string name="comm_disconnect">您想要中斷連線嗎?</string>
+    <string name="comm_quit_hangup">掛斷</string>
+    <string name="comm_quit_keep">取消</string>
+
+    <string name="comm_dialog_wait">等待 </string>
+    <string name="comm_dialog_someones_reply"> 的回應</string>
+    <string name="comm_dialog_reject_change_board">不想要分享後鏡頭影像</string>
+    <string name="comm_dialog_request_switch_wb">想要看你的後鏡頭影像</string>
+    <string name="comm_dialog_role_switch">切換視野?</string>
+    <string name="comm_dialog_wait_remote_response">等待對方許可</string>
+    <string name="comm_dialog_dont_change">不想要變更</string>
+    <string name="comm_dialog_show_my_preview">目前是本機的畫面</string>
+    <string name="comm_dialog_show_remote_preview1">目前是</string>
+    <string name="comm_dialog_show_remote_preview2">的畫面</string>
+    <string name="comm_dialog_save_success">存檔成功</string>
+    <string name="comm_dialog_save_fail">存檔失敗</string>
+    <string name="comm_dialog_cant_save_picture">無法拍下照片</string>
+    <string name="comm_dialog_send_a_picture">正在傳照片</string>
+    <string name="comm_dialog_take_a_picture">正在用相機拍照</string>
+
+    <!-- Communication toolbar strings. -->
+    <string name="action_videoboard">視訊</string>
+    <string name="action_whiteboard">白板</string>
+    <string name="action_role_switch">切換視野</string>
+    <string name="action_mic">麥克風</string>
+    <string name="action_pen">塗鴉</string>
+    <string name="action_pic">照片</string>
+    <string name="action_navigator">箭頭</string>
+    <string name="action_eraser">橡皮擦</string>
+    <string name="action_Undo">上一步</string>
+    <string name="action_eraser_all">清空塗鴉</string>
+    <string name="dialog_eraseall_message">確定要清除所有的塗鴉?</string>
+    <string name="dialog_eraseall_reject">拒絕</string>
+    <string name="dialog_eraseall_ok">確定</string>
+    <string name="dialog_eraseall_cancel">取消</string>
+
+    <!-- History strings. -->
+    <string name="hist_title">聯絡紀錄</string>
+    <string name="hist_date"><u>2015.10.25</u></string>
+    <string name="hist_time"><u>10:30</u></string>
+    <string name="hist_thankscard_title">感謝函</string>
+    <string name="hist_incoming_arrow">接受協作討論 &lt;-</string>
+    <string name="hist_call_out_arrow">發起協作討論 -&gt;</string>
+    <string name="hist_incoming">收到協作討論的請求</string>
+    <string name="hist_call_out">發起協作討論</string>
+    <string name="hist_miss">未接受的協作討論</string>
+    <string name="hist_sent_card">送出感謝函</string>
+    <string name="hist_recv_card">收到感謝函</string>
+    <string name="hist_sent_msg">送出訊息</string>
+    <string name="hist_recv_msg">收到訊息</string>
+        
+    <!-- Settings strings. -->
+    <string name="sett_personal_info">個人資料</string>
+    <string name="sett_add_friends">加入好友</string>
+    <string name="sett_Invite_friends_to_join_MeetDay">邀請好友來用MeetDay</string>
+    <string name="sett_thanks_context">預設感謝函內容</string>
+    <string name="sett_message_context">預設發問內容</string>
+    <string name="sett_feedback">與我們聯繫</string>
+    <string name="sett_id">MeetDay ID</string>
+    <string name="sett_id_hint">ID 請由字母開頭 (a-z)、大小寫不拘、數字及下劃線，輸入 6 到 20 個字元</string>
+    <string name="sett_fb">Facebook</string>
+    <string name="sett_email">Gmail</string>
+    <string name="sett_phone_number">電話號碼</string>
+    <string name="sett_feedback_title">客戶服務</string>
+    <string name="sett_version_name">版本</string>
+    <string name="sett_login">登入</string>
+    <string name="sett_logout">登出</string>
+    <string name="sett_verified">驗證</string>
+    <string name="sett_n_verified">未驗證</string>
+    <string name="sett_n_set">未設定</string>
+    <string name="sett_OK">確認</string>
+    <string name="sett_Cancel">取消</string>
+    <string name="sett_wrong_format">抱歉,這是錯誤的格式</string>
+    <string name="sett_id_used">此ID已被別人註冊囉!</string>
+    <string name="sett_log_out">登出</string>
+    <string name="sett_to_log_out">您確定要登出嗎?</string>
+    <string name="sett_thank_content">感謝函內容</string>
+    <string name="sett_thanks_letter1">感謝卡1號</string>
+    <string name="sett_thanks_letter2">感謝卡2號</string>
+    <string name="sett_thanks_letter3">感謝卡3號</string>
+    <string name="sett_thanks_letter4">感謝卡4號</string>
+
+    <!-- Add Friends Page -->
+    <string name="add_friends_mail_title">我想邀請您使用 MeetDay</string>
+    <string name="add_friends_mail_first_sentence">請進入</string>
+    <!--<string name="add_friends_mail_sentence4url">https://play.google.com/apps/testing/com.project1.meetday</string>-->
+    <string name="add_friends_mail_sentence4url">https://play.google.com/store/apps/details?id=com.project1.meetday</string>
+    <string name="add_friends_mail_second_sentence">下載 MeetDay，輸入以下資訊與我成為好友。</string>
+    <string name="add_friends_mail_sentence4id">我的 MeetDay ID:</string>
+    <string name="add_friends_mail_third_sentence">或</string>
+    <string name="add_friends_mail_sentence4fone">我的電話號碼:</string>
+    <string name="add_friend_editext_hint">電話號碼 或 MeeDay ID</string>
+
+    <string name="add_friend_connect">連接中…</string>
+    <string name="add_friend_wait">請稍等…</string>
+    <string name="add_friend_your_friend">您和</string>
+    <string name="add_friend_your_friend_exist">已經是朋友了!</string>
+    <string name="add_friend_friend_exist_title">朋友已存在</string>
+    <string name="add_friend_cant_add_yourself">您不能加入自己的帳號</string>
+    <string name="add_friend_add_yourself">錯誤</string>
+    <string name="add_friend_find_friend_message1">找到了!你確定要加</string>
+    <string name="add_friend_find_friend_message2">為好友囉!</string>
+    <string name="add_friend_find_friend_title">找到好友</string>
+    <string name="add_friend_not_find_message1">找不到</string>
+    <string name="add_friend_not_find_message2">, 要不要換個ID再試一次</string>
+    <string name="add_friend_not_find_title">找不到</string>
+    <string name="add_friend_add_ok">已經加入到好友群了!</string>
+    <string name="add_friend_add_fail">加入失敗!</string>
+    <string name="add_friend_confirm">確認!</string>
+    <string name="add_friend_add">加入</string>
+    <string name="add_friend_cancel">取消</string>
+
+    <!-- AppRTC Settings strings. -->
+    <string name="pref_room_key">room_preference</string>
+    <string name="pref_room_list_key">room_list_preference</string>
+    <string name="pref_videosettings_key">video_settings_key</string>
+    <string name="pref_videosettings_title">WebRTC video settings.</string>
+    <string name="pref_videocall_key">videocall_preference</string>
+    <string name="pref_videocall_title">Video call.</string>
+    <string name="pref_videocall_dlg">Enable video in a call.</string>
+    <string name="pref_videocall_default">true</string>
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video resolution.</string>
+    <string name="pref_resolution_dlg">Enter AppRTC local video resolution.</string>
+    <string name="pref_resolution_default">Default</string>
+    <string name="pref_fps_key">fps_preference</string>
+    <string name="pref_fps_title">Camera fps.</string>
+    <string name="pref_fps_dlg">Enter local camera fps.</string>
+    <string name="pref_fps_default">Default</string>
+    <string name="pref_startvideobitrate_key">startvideobitrate_preference</string>
+    <string name="pref_startvideobitrate_title">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_dlg">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_default">Default</string>
+    <string name="pref_startvideobitratevalue_key">startvideobitratevalue_preference</string>
+    <string name="pref_startvideobitratevalue_title">Video encoder start bitrate.</string>
+    <string name="pref_startvideobitratevalue_dlg">Enter video encoder start bitrate in kbps.</string>
+    <string name="pref_startvideobitratevalue_default">1000</string>
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec.</string>
+    <string name="pref_videocodec_dlg">Select default video codec.</string>
+    <!-- <string name="pref_videocodec_default">VP8</string> -->
+    <string name="pref_videocodec_default">H264</string>
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration.</string>
+    <string name="pref_hwcodec_dlg">Use hardware accelerated video codec (if available).</string>
+    <string name="pref_hwcodec_default">true</string>
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+    <string name="pref_audiosettings_key">audio_settings_key</string>
+    <string name="pref_audiosettings_title">WebRTC audio settings.</string>
+    <string name="pref_startaudiobitrate_key">startaudiobitrate_preference</string>
+    <string name="pref_startaudiobitrate_title">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_dlg">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_default">Default</string>
+    <string name="pref_startaudiobitratevalue_key">startaudiobitratevalue_preference</string>
+    <string name="pref_startaudiobitratevalue_title">Audio codec bitrate.</string>
+    <string name="pref_startaudiobitratevalue_dlg">Enter audio codec bitrate in kbps.</string>
+    <string name="pref_startaudiobitratevalue_default">32</string>
+    <string name="pref_audiocodec_key">audiocodec_preference</string>
+    <string name="pref_audiocodec_title">Default audio codec.</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec.</string>
+    <string name="pref_audiocodec_default">OPUS</string>
+    <string name="pref_miscsettings_key">misc_settings_key</string>
+    <string name="pref_miscsettings_title">Miscellaneous settings.</string>
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default">https://apprtc.appspot.com</string>
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default">false</string>
+    <string name="title_activity_history_page">HistoryPage</string>
+    <string name="connect_names">No Name</string>
+    <string name="connect_content">Hellow, everyone..</string>
+    <string name="title_activity_history_detail_page">HistoryDetailPage</string>
+    <string name="defaulttext">text</string>
+
+    <string name="friend_card_message">文字討論</string>
+    <string name="friend_card_collaborate">協作討論</string>
+
+    <string name="chat_msg_menu_copy">複製</string>
+
+    <string name="chat_msg_call_out">發起協作討論</string>
+    <string name="chat_msg_call_in_answered">接受協作討論</string>
+    <string name="chat_msg_call_in_missed">未接受的協作討論</string>
+
+    <string name="privacy_policy_title">隱私權政策\n</string>
+
+    <string name="privacy_policy">
+非常歡迎您使用「MeetDay」(以下簡稱為「本App」、「我們」或「我們的」)，為了讓您安心使用本App的各項服務與功能，我們在此向您說明本App的隱私權保護政策，以保障您的權益，請您詳細閱讀下列內容：\n\n
+
+一、隱私權保護政策的適用範圍\n
+
+隱私權保護政策內容，包括本App如何處理在您使用網站服務時收集到的個人識別資料。隱私權保護政策不適用於本App以外的相關連結網站或其他App之用途，也不適用於非本App所委託或參與管理的人員。\n\n
+
+二、個人資料的蒐集、處理及使用方式\n\n
+
+A.您向我們提供的信息，當您使用本App所提供之服務時，我們將視該服務功能性質，請您提供必要的個人資料，這當中包括：\n\n
+
+i.當您使用本App服務而創立MeetDay帳號(以下簡稱「帳號」)時，您可選擇使用臉書帳號建立帳號或使用谷歌帳號建立帳號。請注意，我們並不會蒐集您的臉書密碼或谷歌密碼。\n\n
+
+ii.填寫本App的個人資料時，設定MeetDay ID[可選]\n
+為了讓您的好友在服務中能夠搜尋到您，您可在個人資料中設定MeetDay中的識別名稱 (以下簡稱MeetDay ID )，您的好友可經由您的MeetDay ID搜尋到您，並互相聯繫。而未經您的同意下，其他MeetDay用戶無法看見您的MeetDay ID。\n\n
+
+iii.填寫本App的個人資料時，設定電話號碼[可選]\n
+為了讓您的好友在服務中能夠搜尋到您，您可在個人資料中設定電話號碼，您的好友可透過電話號碼搜尋到您，並互相聯繫。而您設定電話號碼後，擁有您電話號碼的其他MeetDay用戶直接和您成為好友。\n\n
+
+B.用戶在本App創建有關於自身與他人共用的資訊會如何處理？\n
+用戶所產生之內容[可選]\n
+您可以選擇設定您的個人資料(例如MeetDay ID、姓名或暱稱、個人專屬圖片或照片)，這些資料在本App中將用來讓其他MeetDay用戶辨識您的身份。\n
+在使用MeetDay服務時，您還可以選擇其他「用戶所產生之內容」，例如文字、語音訊息、視訊內容、繪畫塗鴉、相機拍照、照片資訊。您可以分享這些「用戶所產生之內容」給您在MeetDay中的聯絡人，透過「用戶所產生之內容」幫助接受的聯絡人，更易於瞭解討論內容。\n
+請注意：您所建立之「用戶所產生之內容」屬於數位資訊，且分享時已傳送至接收聯絡人的終端設備上，因此接收者可將您建立的「用戶所產生之內容」儲存、複製或散布，並且可能被非您意想到的第三方接收人看到。因此我們建議MeetDay用戶，在您建立「用戶所產生之內容」並分享給其他聯絡人之前，審慎考量您要建立的內容。\n\n
+
+C.MeetDay將如何使用您的資訊\n
+為了提供服務給用戶，MeetDay會留下您的個人資料，主要目的為：\n
+i.	用於查核您的身分；\n
+ii.	使您建立之「用戶所產生之內容」分享給其他MeetDay用戶；\n
+iii.	幫助您搜尋並找到您認識的MeetDay用戶；\n
+iv.	留下您操作MeetDay的紀錄，作為我們增進服務功能的參考依據，此紀錄為內部使用，絕不對外公開公布。\n\n
+
+三、資料保護\n
+MeetDay網路後台均設有防火牆、防毒系統等相關資訊安全設備及必要的安全防護措施，加以保護網站及您個人資料將採用嚴格的保護措施，未經過授權的人員無法接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。\n
+您在使用MeetDay服務建立之「用戶所產生之內容」，也將採用加密機制加以傳送，以降低您使用服務過程中的風險。\n\n
+
+四、與第三人共用個人資料之政策\n
+本App絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。\n\n
+
+前項但書之情形包括不限於：\n\n
+
+A.	經由您書面同意。\n
+B.	法律明文規定。\n
+C.	為免除您生命、身體、自由或財產上之危險。\n
+D.	與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。\n
+E.	當您使用本App服務時的行為，違反服務條款或可能損害或妨礙MeetDay與其他使用者權益或導致任何人遭受損害時，經MeetDay管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。\n
+F.	有利於您的權益。\n
+G.	MeetDay若委託廠商協助蒐集、處理或使用您的個人資料時，將對委外廠商或個人善盡監督管理之責。\n\n
+
+五、隱私權保護政策之修正\n
+本App的隱私權政策將因應各種需求隨時修正，以反映本App的服務變化以及相關的法律政策。修正後的條款將刊登於官網以及本App設定頁面內。
+</string>
+
+</resources>

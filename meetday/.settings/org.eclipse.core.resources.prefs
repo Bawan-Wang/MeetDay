@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/project1/apprtc/ArrowGesture.java=UTF-8
+encoding//src/com/project1/apprtc/PeerConnectionClient.java=UTF-8
+encoding//src/com/project1/http/PictUtil.java=UTF-8
+encoding//src/com/project1/http/ServerService.java=UTF-8
+encoding//src/com/project1/meetday/CallActivity.java=UTF-8
+encoding//src/com/project1/meetday/CallFragment.java=UTF-8
+encoding//src/com/project1/meetday/GCMNotificationIntentService.java=UTF-8
+encoding//src/com/project1/meetday/HelperConnectPage.java=UTF-8
+encoding//src/com/project1/meetday/MainPage.java=UTF-8
+encoding//src/com/project1/meetday/PersonalPage.java=UTF-8
+encoding//src/com/project1/meetday/WelcomPage.java=UTF-8

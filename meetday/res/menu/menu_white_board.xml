@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.project1.meetday.WhiteBoardActivity"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <item android:id="@+id/action_vb"
+            android:icon="@drawable/ic_videocam_green_24dp"
+            android:title="@string/action_videoboard"
+            app:showAsAction="always" >
+      </item> 
+      <item android:id="@+id/action_pic"
+            android:icon="@drawable/ic_photo_green_24dp"
+            android:title="@string/action_pic"
+            app:showAsAction="always" >
+           <menu>
+                  <item android:id="@+id/function_white" android:title="@string/action_whiteboard" android:icon="@drawable/ic_content_paste_green_24dp"/>
+                  <item android:id="@+id/function_picture" android:title="@string/action_pic" android:icon="@drawable/ic_photo_green_24dp"/>
+            </menu>
+      </item>      
+      <item android:id="@+id/action_mic"
+            android:icon="@drawable/ic_mic_green_24dp"
+            android:title="@string/action_mic"
+            app:showAsAction="always" >
+      </item> 
+      <item android:id="@+id/action_gesture"
+            android:icon="@drawable/ic_gesture_green_24dp"
+            android:title="@string/action_pen"
+            app:showAsAction="always" >
+            <menu>
+                  <item android:id="@+id/function_pen" android:title="@string/action_pen" android:icon="@drawable/ic_gesture_green_24dp"/>
+                  <item android:id="@+id/function_navigator" android:title="@string/action_navigator" android:icon="@drawable/ic_navigation_green_24dp"/>
+                  <item android:id="@+id/function_eraser" android:title="@string/action_eraser" android:icon="@drawable/ic_eraser_green_24dp"/>
+                  <item android:id="@+id/function_Undo" android:title="@string/action_Undo" android:icon="@drawable/ic_undo_green_24dp"/>
+                  <item android:id="@+id/function_eraserall" android:title="@string/action_eraser_all" android:icon="@drawable/ic_delete_green_24dp"/>
+            </menu>
+      </item>
+
+</menu>

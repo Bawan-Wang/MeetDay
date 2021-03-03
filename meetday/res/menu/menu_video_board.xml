@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.appspot.apprtc.VideoBoardActivity">
+
+      <item android:id="@+id/action_wb"
+            android:icon="@drawable/ic_content_paste_green_24dp"
+            android:title="@string/action_whiteboard"
+            app:showAsAction="always" />
+      <item android:id="@+id/action_role_switch"
+            android:icon="@drawable/ic_role_switch_green_24dp"
+            android:title="@string/action_role_switch"
+            app:showAsAction="always" />
+      <item android:id="@+id/action_mic"
+            android:icon="@drawable/ic_mic_green_24dp"
+            android:title="@string/action_mic"
+            app:showAsAction="always" />
+      <item android:id="@+id/action_gesture"
+            android:icon="@drawable/ic_gesture_green_24dp"
+            android:title="@string/action_pen"
+            app:showAsAction="always" >
+            <menu>
+                  <item android:id="@+id/function_pen" android:title="@string/action_pen" android:icon="@drawable/ic_gesture_green_24dp"/>
+                  <item android:id="@+id/function_navigator" android:title="@string/action_navigator" android:icon="@drawable/ic_navigation_green_24dp"/>
+                  <item android:id="@+id/function_eraser" android:title="@string/action_eraser" android:icon="@drawable/ic_eraser_green_24dp"/>
+                  <item android:id="@+id/function_Undo" android:title="@string/action_Undo" android:icon="@drawable/ic_undo_green_24dp"/>
+                  <item android:id="@+id/function_eraserall" android:title="@string/action_eraser_all" android:icon="@drawable/ic_delete_green_24dp"/>
+            </menu>
+      </item>
+</menu>
